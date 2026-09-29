@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fire_q1",
+    "type": "MCQ",
+    "stemKey": "fq1_s",
+    "options": [
+      "fq1_o1",
+      "fq1_o2",
+      "fq1_o3"
+    ],
+    "answer": 1,
+    "difficulty": 1
+  }
+]

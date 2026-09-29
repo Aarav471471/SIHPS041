@@ -1,0 +1,31 @@
+{
+  "id": "electrical",
+  "titleKey": "mod_elec_title",
+  "isLite": true,
+  "steps": [
+    {
+      "id": "intro",
+      "type": "INTRO",
+      "titleKey": "elec_s1_t",
+      "instructionKey": "elec_s1_i",
+      "audioKey": "elec_s1",
+      "maxPoints": 10
+    },
+    {
+      "id": "isolate",
+      "type": "ORDER_SEQUENCE",
+      "titleKey": "elec_s2_t",
+      "instructionKey": "elec_s2_i",
+      "audioKey": "elec_s2",
+      "maxPoints": 90,
+      "params": {
+        "cards": [
+          "identify",
+          "disconnect",
+          "lockout",
+          "verify"
+        ]
+      }
+    }
+  ]
+}

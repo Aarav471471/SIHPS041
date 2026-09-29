@@ -1,0 +1,25 @@
+# Python / Backend
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+suraksha.db
+suraksha_local.db
+
+# Node / Web
+node_modules/
+dist/
+.env.local
+
+# Android / Gradle
+.gradle/
+.idea/
+build/
+app/build/
+local.properties
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db

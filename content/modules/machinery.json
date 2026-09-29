@@ -1,0 +1,32 @@
+{
+  "id": "machinery",
+  "titleKey": "mod_mach_title",
+  "isLite": true,
+  "steps": [
+    {
+      "id": "intro",
+      "type": "INTRO",
+      "titleKey": "mach_s1_t",
+      "instructionKey": "mach_s1_i",
+      "audioKey": "mach_s1",
+      "maxPoints": 10
+    },
+    {
+      "id": "loto",
+      "type": "ORDER_SEQUENCE",
+      "titleKey": "mach_s2_t",
+      "instructionKey": "mach_s2_i",
+      "audioKey": "mach_s2",
+      "maxPoints": 90,
+      "params": {
+        "cards": [
+          "notify",
+          "shutdown",
+          "isolate",
+          "lock",
+          "test"
+        ]
+      }
+    }
+  ]
+}

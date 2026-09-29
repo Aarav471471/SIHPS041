@@ -1,0 +1,100 @@
+{
+  "id": "gas",
+  "titleKey": "mod_gas_title",
+  "isLite": false,
+  "steps": [
+    {
+      "id": "intro",
+      "type": "INTRO",
+      "titleKey": "gas_s1_t",
+      "instructionKey": "gas_s1_i",
+      "audioKey": "gas_s1",
+      "maxPoints": 5
+    },
+    {
+      "id": "find_zones",
+      "type": "FIND_TARGETS",
+      "titleKey": "gas_s2_t",
+      "instructionKey": "gas_s2_i",
+      "audioKey": "gas_s2",
+      "maxPoints": 20,
+      "params": {
+        "targets": [
+          "co_zone",
+          "h2s_zone",
+          "sign_1"
+        ],
+        "distractors": [
+          "safe_zone"
+        ]
+      }
+    },
+    {
+      "id": "read_gauge",
+      "type": "READ_GAUGE",
+      "titleKey": "gas_s3_t",
+      "instructionKey": "gas_s3_i",
+      "audioKey": "gas_s3",
+      "maxPoints": 20,
+      "params": {
+        "readings": [
+          {
+            "o2": 19.5,
+            "lel": 5,
+            "h2s": 10,
+            "co": 35,
+            "correct": "evacuate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pack_kit",
+      "type": "SELECT_ITEM",
+      "titleKey": "gas_s4_t",
+      "instructionKey": "gas_s4_i",
+      "audioKey": "gas_s4",
+      "maxPoints": 20,
+      "params": {
+        "correct": "full_kit",
+        "tray": [
+          "full_kit",
+          "cotton_mask",
+          "phone"
+        ]
+      }
+    },
+    {
+      "id": "buddy_order",
+      "type": "ORDER_SEQUENCE",
+      "titleKey": "gas_s5_t",
+      "instructionKey": "gas_s5_i",
+      "audioKey": "gas_s5",
+      "maxPoints": 25,
+      "params": {
+        "cards": [
+          "permit",
+          "isolate",
+          "test",
+          "lifeline",
+          "enter"
+        ]
+      }
+    },
+    {
+      "id": "emergency",
+      "type": "ACTION_SEQUENCE",
+      "titleKey": "gas_s6_t",
+      "instructionKey": "gas_s6_i",
+      "audioKey": "gas_s6",
+      "maxPoints": 10,
+      "params": {
+        "sequence": [
+          "alarm",
+          "do_not_enter",
+          "call_rescue"
+        ]
+      }
+    }
+  ]
+}

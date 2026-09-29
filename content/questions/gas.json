@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gas_q1",
+    "type": "MCQ",
+    "stemKey": "gq1_s",
+    "options": [
+      "gq1_o1",
+      "gq1_o2",
+      "gq1_o3"
+    ],
+    "answer": 0,
+    "difficulty": 1
+  }
+]

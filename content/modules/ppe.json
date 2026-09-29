@@ -1,0 +1,30 @@
+{
+  "id": "ppe",
+  "titleKey": "mod_ppe_title",
+  "isLite": true,
+  "steps": [
+    {
+      "id": "intro",
+      "type": "INTRO",
+      "titleKey": "ppe_s1_t",
+      "instructionKey": "ppe_s1_i",
+      "audioKey": "ppe_s1",
+      "maxPoints": 10
+    },
+    {
+      "id": "select",
+      "type": "SELECT_ITEM",
+      "titleKey": "ppe_s2_t",
+      "instructionKey": "ppe_s2_i",
+      "audioKey": "ppe_s2",
+      "maxPoints": 90,
+      "params": {
+        "correct": "helmet_boots_vest",
+        "tray": [
+          "helmet_boots_vest",
+          "sneakers_cap"
+        ]
+      }
+    }
+  ]
+}

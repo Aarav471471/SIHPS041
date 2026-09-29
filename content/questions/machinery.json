@@ -1,0 +1,12 @@
+[
+  {
+    "id": "machinery_q1",
+    "type": "MCQ",
+    "stemKey": "dummy",
+    "options": [
+      "1",
+      "2"
+    ],
+    "answer": 0
+  }
+]

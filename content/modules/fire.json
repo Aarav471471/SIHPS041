@@ -1,0 +1,104 @@
+{
+  "id": "fire",
+  "titleKey": "mod_fire_title",
+  "isLite": false,
+  "steps": [
+    {
+      "id": "intro",
+      "type": "INTRO",
+      "titleKey": "fire_s1_t",
+      "instructionKey": "fire_s1_i",
+      "audioKey": "fire_s1",
+      "maxPoints": 5
+    },
+    {
+      "id": "find_exits",
+      "type": "FIND_TARGETS",
+      "titleKey": "fire_s2_t",
+      "instructionKey": "fire_s2_i",
+      "audioKey": "fire_s2",
+      "maxPoints": 20,
+      "params": {
+        "targets": [
+          "exit1",
+          "exit2",
+          "exit3"
+        ],
+        "distractors": [
+          "blocked_exit"
+        ]
+      }
+    },
+    {
+      "id": "select_ext",
+      "type": "SELECT_ITEM",
+      "titleKey": "fire_s3_t",
+      "instructionKey": "fire_s3_i",
+      "audioKey": "fire_s3",
+      "maxPoints": 20,
+      "params": {
+        "correct": "ext_co2",
+        "tray": [
+          "ext_water",
+          "ext_co2",
+          "ext_powder"
+        ]
+      }
+    },
+    {
+      "id": "pass_action",
+      "type": "ACTION_SEQUENCE",
+      "titleKey": "fire_s4_t",
+      "instructionKey": "fire_s4_i",
+      "audioKey": "fire_s4",
+      "maxPoints": 25,
+      "params": {
+        "sequence": [
+          "pull_pin",
+          "aim_base",
+          "squeeze",
+          "sweep"
+        ]
+      }
+    },
+    {
+      "id": "evac_order",
+      "type": "ORDER_SEQUENCE",
+      "titleKey": "fire_s5_t",
+      "instructionKey": "fire_s5_i",
+      "audioKey": "fire_s5",
+      "maxPoints": 20,
+      "params": {
+        "cards": [
+          "raise_alarm",
+          "cut_power",
+          "help_others",
+          "evacuate",
+          "assembly_point"
+        ]
+      }
+    },
+    {
+      "id": "walk_path",
+      "type": "WALK_PATH",
+      "titleKey": "fire_s6_t",
+      "instructionKey": "fire_s6_i",
+      "audioKey": "fire_s6",
+      "maxPoints": 10,
+      "params": {
+        "waypoints": [
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            4
+          ]
+        ]
+      }
+    }
+  ]
+}

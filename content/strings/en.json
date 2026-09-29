@@ -1,0 +1,20 @@
+{
+  "_status": "draft",
+  "mod_fire_title": "Fire & Explosion Response",
+  "mod_gas_title": "Gas Leak & Confined Space",
+  "mod_mach_title": "Machinery Safety (LOTO)",
+  "mod_elec_title": "Electrical Safety",
+  "mod_ppe_title": "PPE & Working at Height",
+  "fire_s1_t": "Introduction to Fire Safety",
+  "fire_s1_i": "Fires need heat, fuel, and oxygen. In mines, coal dust and oil are primary fuels. Smoke inhalation is the leading cause of death.",
+  "fire_s2_t": "Find the Exits",
+  "fire_s2_i": "Tap all safe exits in the room. Beware of blocked pathways.",
+  "fire_s3_t": "Choose Extinguisher",
+  "fire_s3_i": "Electrical panel is on fire. Select the correct extinguisher.",
+  "fire_s4_t": "PASS Method",
+  "fire_s4_i": "Execute the PASS method: Pull pin, Aim, Squeeze, Sweep.",
+  "fire_s5_t": "Evacuation Sequence",
+  "fire_s5_i": "Drag the steps into the correct evacuation order.",
+  "fire_s6_t": "Walk to Assembly",
+  "fire_s6_i": "Follow the floor arrows to the safe assembly point."
+}
