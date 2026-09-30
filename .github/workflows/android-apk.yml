@@ -24,12 +24,6 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install SDK packages
-        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
-
       # The repo has no gradlew / gradle-wrapper.jar, so install Gradle 8.7
       # (the version named in gradle-wrapper.properties) directly.
       - name: Set up Gradle
