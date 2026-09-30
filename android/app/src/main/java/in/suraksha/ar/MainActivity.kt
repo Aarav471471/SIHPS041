@@ -17,12 +17,14 @@ import in.suraksha.ar.ui.screens.CertificateScreen
 import in.suraksha.ar.ar.ui.ArSessionScreen
 import in.suraksha.ar.ar.engine.StepDefinition
 
+import in.suraksha.ar.ui.theme.SurakshaARTheme
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MaterialTheme {
+            SurakshaARTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
